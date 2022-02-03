@@ -1,6 +1,12 @@
 package acdc
 
-func sum(xi ...int) int {
+// func main() {
+// 	a := Sum(1, 2)
+// 	fmt.Println(a)
+
+// }
+
+func Sum(xi ...int) int {
 	s := 0
 	for _, v := range xi {
 		s += v
